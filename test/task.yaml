@@ -1,10 +1,10 @@
 apiVersion: tekton.dev/v1beta1
 kind: Task 
 metadata:
-  name: toto
+  name: echoer
 spec:
   steps:
     - image: alpine
       script: | 
         #!/bin/sh
-        echo 'Meeow!! from Tekton
+        echo 'Meeow!! from Tekton tata
