@@ -7,4 +7,4 @@ spec:
     - image: alpine
       script: | 
         #!/bin/sh
-        echo 'Meeow!! from Tekton tata
+        echo 'Meeow!! from Tekton tata'
